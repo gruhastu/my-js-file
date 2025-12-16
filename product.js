@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-  console.log('Product JS loaded');
+  console.log('Product JS loaded – Custom Size Handler');
   // 👇 CONFIGURATION
   var EXTRA_VARIANT_ID = 44334658781254;
   var PALEMENT_VARIANT_ID = 44334658977862; // This should be a $1.00 product
