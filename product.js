@@ -8,6 +8,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var PALEMENT_MINIMUM_CHARGE = 500; // ✅ Minimum charge for palement
 
   // Get min/max values from window.CustomSizeConfig
+
   var config = window.CustomSizeConfig || {};
   var sectionId = config.sectionId || '';
   var productFormId = config.productFormId || '';
