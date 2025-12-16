@@ -537,6 +537,7 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .then(function(data) {
             console.log('✅ Cart response:', data);
+            window.location.href = '/cart';
             showCartToast('✅ Item added to cart');
         })
         .catch(function(err) {
